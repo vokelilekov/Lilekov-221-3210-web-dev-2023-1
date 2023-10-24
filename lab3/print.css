@@ -1,7 +1,5 @@
 body {
-    background-color: #fff;
+    background-color: #ffffff;
 }
 
-header, footer {
-    display: none;
-}
+h1, div#header, div#footer { display: none; }
