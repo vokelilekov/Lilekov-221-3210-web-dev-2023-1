@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 60%;
+}
+
+body {
+    font-family: monospace;
+    color: #EDE8E8;
+    background-color: rgba(0, 107, 107, 0.7);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+main {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    max-width: 60rem;
+    width: 100%;
+    margin: 12rem auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.calculator {
+    width: 100%;
+    background-color: rgb(113, 212, 212);
+    border-radius: 1.5rem;
+    overflow: hidden;
+}
+
+.screen {
+    width: 100%;
+    font-size: 5rem;
+    border: none;
+    background-color: rgb(29, 187, 201);
+    color: rgb(0, 0, 0);
+    text-align: right;
+    padding: 1rem 3rem 0 3rem;
+}
+
+.buttons {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    padding: 2rem;
+}
+
+.digit,
+.operator,
+.clear,
+.result,
+.parenthesis {
+    height: 6rem;
+    border-radius: 1rem;
+    font-size: 2rem;
+    border: 0;
+    background-color: rgb(30, 66, 66);
+    cursor: pointer;
+    color: rgb(60, 255, 255);
+    transition: background-color .1s ease-in-out;
+}
+
+.digit:hover,
+.operator:hover,
+.clear:hover,
+.result:hover,
+.parenthesis:hover {
+    background-color: #084c69;
+}
+
+.result {
+    grid-column-start: span 2;
+}
