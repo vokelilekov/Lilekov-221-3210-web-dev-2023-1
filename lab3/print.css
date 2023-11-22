@@ -1,5 +1,10 @@
 body {
     background-color: #ffffff;
+    color: black;
 }
 
-h1, div#header, div#footer { display: none; }
+h1,
+header,
+footer {
+    display: none;
+}
