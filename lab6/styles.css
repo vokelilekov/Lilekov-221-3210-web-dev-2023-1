@@ -1,0 +1,11 @@
+.custom-bg-body {
+    background: linear-gradient(168deg, rgb(23, 0, 36) 0%, rgb(77, 23, 128) 53%, rgb(77, 3, 173)82%, rgb(79, 3, 173) 100%);
+}
+
+.features-bg {
+    background: linear-gradient(168deg, rgb(123, 107, 133) 0%, rgb(75, 44, 101) 53%, rgb(51, 16, 99) 82%, rgb(79, 3, 173)100%);
+}
+
+.custom-text-color {
+    background: radial-gradient(circle, rgb(14, 0, 36) 0%, rgb(59, 9, 121) 53%, rgb(64, 0, 99) 100%);
+}
