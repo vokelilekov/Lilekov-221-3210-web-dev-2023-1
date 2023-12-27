@@ -174,5 +174,6 @@ window.onload = function () {
             downloadData();
         }
     });
+    document.querySelector('.search-btn').onclick = close.getHintWords;
     document.querySelector('.search-field').oninput = getHintWords;
 };

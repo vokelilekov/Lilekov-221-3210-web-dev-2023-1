@@ -209,6 +209,7 @@ function clickHandler(event) {
     else {
         document.querySelector('.screen').value += event.target.value;
     }
+    console.log(event.target)
 }
 
 // Назначьте нужные обработчики событий.
